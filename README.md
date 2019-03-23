@@ -1,1 +1,1 @@
-# CS-Reveries
+# Loosely structured contemplation of CS topics

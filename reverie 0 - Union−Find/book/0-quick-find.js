@@ -20,9 +20,3 @@ class QuickFindUF {
     }
   }
 }
-
-
-const a = new QuickFindUF(6)
-a.connected(3, 4)
-
-a.union(3, 4)

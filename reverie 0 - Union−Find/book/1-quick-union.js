@@ -26,9 +26,3 @@ class QuickUnionUF {
     this.id[i] = j
   }
 }
-
-
-const a = new QuickUnionUF(6)
-a.connected(3, 4)
-
-a.union(3, 4)

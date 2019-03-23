@@ -8,7 +8,7 @@ class QuickFindUF {
   }
 
   connected(p, q) {
-    return this.id[p] == this.id[q]
+    return this.id[p] === this.id[q]
   }
 
   union(p, q) {
@@ -16,7 +16,7 @@ class QuickFindUF {
     const qid = this.id[q]
 
     for (let i = 0; i < this.id.length; i++) {
-      if (this.id[i] == pid) this.id[i] = qid
+      if (this.id[i] === pid) this.id[i] = qid
     }
   }
 }

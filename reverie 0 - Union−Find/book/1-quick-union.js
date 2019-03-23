@@ -16,7 +16,7 @@ class QuickFindUF {
   }
 
   connected(p, q) {
-    return this.root(p) == this.root(q)
+    return this.root(p) === this.root(q)
   }
 
   union(p, q) {

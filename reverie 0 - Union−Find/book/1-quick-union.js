@@ -1,4 +1,4 @@
-class QuickFindUF {
+class QuickUnionUF {
   constructor(N) {
     this.id = new Array(N)
 
@@ -28,7 +28,7 @@ class QuickFindUF {
 }
 
 
-const a = new QuickFindUF(6)
+const a = new QuickUnionUF(6)
 a.connected(3, 4)
 
 a.union(3, 4)

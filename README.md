@@ -1,1 +1,1 @@
-# Loosely structured contemplation of CS topics
+# Loosely structured contemplations of CS topics

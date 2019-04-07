@@ -123,8 +123,8 @@ class PercolationSoso {
 }
 
 const start = Date.now()
-const length = 20
-const p = new Percolation(length)
+const length = 200
+const p = new PercolationSoso(length)
 
 let counter = 0
 while (!counter) {
